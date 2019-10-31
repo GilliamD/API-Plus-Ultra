@@ -39,7 +39,7 @@ function categories(){
         twin4.removeChild(twin4.lastChild)
         twin5.removeChild(twin5.lastChild)
         twin6.removeChild(twin6.lastChild)
-        devilFruit()
+        //devilFruit()
     });
 }
 //Carousel generator
