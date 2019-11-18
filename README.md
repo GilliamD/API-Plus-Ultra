@@ -1,8 +1,9 @@
-*API Group Project for Digital Crafts*
+*Front end Group Project for Digital Crafts*
 
-Contribitors: Kyrathedork, GilliamD
+Japanese media site made with approaches to templating and single page app in vanilla JS
 
 Resources: NES Framework, BootStrap, jQuery
 
 Video Game API = https://api.rawg.io/
 
+Contribitors: Kyrathedork, GilliamD
