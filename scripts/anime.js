@@ -32,15 +32,15 @@ function categories(){
         twin6.removeChild(twin6.lastChild)
         pirates()
     });
-    third.addEventListener('click', function(){
-        twin1.removeChild(twin1.lastChild)
-        twin2.removeChild(twin2.lastChild)
-        twin3.removeChild(twin3.lastChild)
-        twin4.removeChild(twin4.lastChild)
-        twin5.removeChild(twin5.lastChild)
-        twin6.removeChild(twin6.lastChild)
-        //devilFruit()
-    });
+    // third.addEventListener('click', function(){
+    //     twin1.removeChild(twin1.lastChild)
+    //     twin2.removeChild(twin2.lastChild)
+    //     twin3.removeChild(twin3.lastChild)
+    //     twin4.removeChild(twin4.lastChild)
+    //     twin5.removeChild(twin5.lastChild)
+    //     twin6.removeChild(twin6.lastChild)
+    //     //devilFruit()
+    // });
 }
 //Carousel generator
 function car(doodle,videoUrl,piece,stream){
@@ -78,7 +78,6 @@ function strawHats() {
     ); //Muhyo & Roji
 
     luffy.then(function(rubber) {
-        console.log(rubber)
             //Grabbing relvent information of which to populate in the DOM
 
 
@@ -126,7 +125,6 @@ function strawHats() {
         `https://api.themoviedb.org/3/tv/67075-100?api_key=cc42102845a020075536de832b824222`
         );//Mob Psycho 100
         zoro.then(function(sword) {
-            console.log(sword);
             //
             const doodle = sword.backdrop_path
             const photo = sword.poster_path
@@ -166,7 +164,6 @@ function strawHats() {
             `https://api.themoviedb.org/3/tv/45790?api_key=cc42102845a020075536de832b824222`
             );//Jojo's Bizzare Adventure
             nami.then(function(staff) {
-            console.log(staff);
             //
             const doodle = staff.backdrop_path
             const photo = staff.poster_path
@@ -207,7 +204,6 @@ function strawHats() {
             `https://api.themoviedb.org/3/tv/64196?api_key=cc42102845a020075536de832b824222`
             );//Overlord
         usopp.then(function(sling) {
-            console.log(sling);
             //
             const doodle = sling.backdrop_path
             const photo = sling.poster_path
@@ -248,7 +244,6 @@ function strawHats() {
             `https://api.themoviedb.org/3/tv/75775?api_key=cc42102845a020075536de832b824222`
         );//Junji Ito Collection
         sanji.then(function(chef) {
-            console.log(chef);
             //
             const doodle = chef.backdrop_path
             const photo = chef.poster_path
@@ -289,7 +284,6 @@ function strawHats() {
             `https://api.themoviedb.org/3/tv/71024?api_key=cc42102845a020075536de832b824222`
         );//Castlevania
         chopper.then(function(meds) {
-            console.log(meds);
             //
             const doodle = meds.backdrop_path
             const photo = meds.poster_path
@@ -336,7 +330,6 @@ function pirates() {
     ); //Persona 5
 
     luffy.then(function(rubber) {
-        console.log(rubber)
             //Grabbing relvent information of which to populate in the DOM
 
             
@@ -383,7 +376,6 @@ function pirates() {
         `https://api.themoviedb.org/3/tv/60572?api_key=cc42102845a020075536de832b824222`
         );//Pokemon
         zoro.then(function(sword) {
-            console.log(sword);
             //
             const doodle = sword.backdrop_path
             const photo = sword.poster_path
@@ -423,7 +415,6 @@ function pirates() {
             `https://api.themoviedb.org/3/tv/9643?api_key=cc42102845a020075536de832b824222`
             );//.Hack GU
             nami.then(function(staff) {
-            console.log(staff);
             //
             const doodle = staff.backdrop_path
             const photo = staff.poster_path
@@ -464,7 +455,6 @@ function pirates() {
             `https://api.themoviedb.org/3/tv/49471?api_key=cc42102845a020075536de832b824222`
             );//Danganronpa
         usopp.then(function(sling) {
-            console.log(sling);
             //
             const doodle = sling.backdrop_path
             const photo = sling.poster_path
@@ -505,7 +495,6 @@ function pirates() {
             `https://api.themoviedb.org/3/tv/45782?api_key=cc42102845a020075536de832b824222`
         );//SAO
         sanji.then(function(chef) {
-            console.log(chef);
             //
             const doodle = chef.backdrop_path
             const photo = chef.poster_path
@@ -546,7 +535,6 @@ function pirates() {
             `https://api.themoviedb.org/3/tv/12577?api_key=cc42102845a020075536de832b824222`
         );//DMC
         chopper.then(function(meds) {
-            console.log(meds);
             //
             const doodle = meds.backdrop_path
             const photo = meds.poster_path
